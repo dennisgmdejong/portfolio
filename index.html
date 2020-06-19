@@ -11,52 +11,97 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <div class="logo">Logo</div>
-        <!-- <img src="img/logo.png" alt="logo" class="logo"> -->
+    <header class="header">
+      <div class="logo">Logo</div>
+      <!-- <img src="img/logo.png" alt="logo" class="logo"> -->
 
-        <nav class="nav">
-          <ul class="menu">
-            <li class="nav__item">
-              <a href="#" class="nav__link"><span>About</span></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link"><span>Projects</span></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link"><span>Contact</span></a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <nav class="nav">
+        <ul class="menu">
+          <li class="nav__item">
+            <a href="#about" class="nav__link"><span>About</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link"><span>Projects</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#footer" class="nav__link"><span>Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     
-      <main>
-        <div class="home">
+    <main>
+      <section class="section-home">
+        <div id="home" class="home">
           <div class="home__text">
-            Hi, I'm <span class="highlight">Dennis de Jong</span>.<br />
-            a front-end web developer.
+            <h1 class="home__text--h1">Hi, I'm <span class="home__text--highlight">Dennis de Jong</span>.<br />
+            <span class="home__text--description">a front-end web developer.</span></h1>
           </div>
           <div class="button">
-            <a href="#" class="home__btn">View Projects</a>
+            <a href="#projects" class="btn">View Projects</a>
           </div>
         </div>
-        <div class="about">
-          About
+      </section>
+ 
+      <section class="section-about">
+        <div id="about" class="about">
+          <div class="about__title">
+            About
+          </div>
+          <div class="about__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consequatur perspiciatis corporis, doloribus ducimus minima <br> labore ad sapiente deleniti cumque, placeat nobis quibusdam dolore veniam voluptatum accusamus nemo suscipit eveniet.
+          </div>
         </div>
-        <div class="projects">
-          Projects
-        </div>
-        <div class="projects">
-          Contact
-        </div>
-      </main>
+      </section>
 
-      <footer>
-        <div class="footer__text">
-          Footer
+      <section class="projects">
+        <div id="projects" class="projects">
+          <div class="projects__title">
+            Projects
+          </div>
+          <div class="projects__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam soluta libero minus dolores deleniti vero iusto iste atque <br> impedit quod temporibus alias, hic ullam quas amet pariatur consequatur, a dolore?
+          </div>
+          <div class="projects__grid">
+            grid
+          </div>          
         </div>
-      </footer>
-     </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact">
+          <div class="contact__title">
+            Contact
+          </div>
+          <div class="contact__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel placeat laboriosam libero temporibus deleniti, nesciunt nemo exercitationem <br> labore consequatur. Natus iusto consectetur repudiandae at quas. Voluptates tenetur deserunt dolores debitis.
+          </div>
+          <ul class="contact__nav">
+            <li class="contact__nav--item">
+              <a href="mailto:email@domain.com" class="contact__nav--link">
+                <svg class="email"><use xlink:href="img/sprite.svg#icon-envelop"></use></svg>
+              </a>
+            </li>
+            <li class="contact__nav--item">
+              <a href="https://github.com/dennisgmdejong" class="contact__nav--link" target="_blank">
+                <svg class="github"><use xlink:href="img/sprite.svg#icon-github"></use></svg>
+              </a>
+            </li>
+            <li class="contact__nav--item">
+              <a href="https://www.linkedin.com/in/dennisgmdejong/" class="contact__nav--link" target="_blank">
+                <svg class="linkedin"><use xlink:href="img/sprite.svg#icon-linkedin2"></use></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    
+    <footer id="footer" class="footer">
+      <div class="copyright">
+        &copy; Copyright 2020 by Dennis de Jong.
+      </div>
+    </footer>
+
   </body>
 </html>

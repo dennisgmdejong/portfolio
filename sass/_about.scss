@@ -1,0 +1,18 @@
+.about {
+	margin-top: -25vh;
+	background-color: $color-broken-white;
+	text-align: center;
+	height: 80vh;
+	padding: 25rem;
+
+	&__title {
+		color: $color-blue-dark;
+		font-size: 3rem;
+		font-weight: 600;
+	}
+
+	&__text {
+		padding-top: 5rem;
+		font-size: 2rem;
+	}
+}

@@ -1,0 +1,52 @@
+.contact {
+	margin-top: -25vh;
+	background-color: $color-broken-white;
+
+	&__title {
+		padding-top: 25rem;
+		color: $color-blue-dark;
+		text-align: center;
+		font-size: 3rem;
+		font-weight: 600;
+		// margin-bottom: 5rem;
+	}
+
+	&__text {
+		padding: 5rem;
+		font-size: 2rem;
+		text-align: center;
+	}
+}
+
+.contact__nav {
+	background-color: $color-broken-white;
+	flex: 0 0 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&--item {
+		list-style: none;
+		text-decoration: none;
+	}
+}
+
+.email {
+	height: 3rem;
+	width: 3rem;
+	margin-right: 5rem;
+	fill: $color-blue-dark;
+}
+
+.github {
+	height: 3rem;
+	width: 3rem;
+	margin-right: 5rem;
+	fill: $color-blue-dark;
+}
+
+.linkedin {
+	height: 3rem;
+	width: 3rem;
+	fill: $color-blue-dark;
+}
