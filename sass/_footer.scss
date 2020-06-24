@@ -1,12 +1,21 @@
 .footer {
-	padding-top: 10vh;
+	// padding-top: 10rem;
+	margin-top: -5vh;
 	background-color: $color-broken-white;
 	text-align: center;
+
+	// @include respond(tab-port) {
+	// 	padding-top: 0;
+	// }
+
+	// @include respond(phone) {
+	// 	padding-top: 0;
+	// }
 }
 
 .copyright {
 	padding-top: 8rem;
-	color: $color-blue-darker;
+	color: $color-primary-dark;
 	font-size: 1.4rem;
 	padding-bottom: 5rem;
 }

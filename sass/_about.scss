@@ -1,18 +1,71 @@
 .about {
-	margin-top: -25vh;
 	background-color: $color-broken-white;
 	text-align: center;
-	height: 80vh;
-	padding: 25rem;
+	padding: 20rem 20rem;
+
+	@include respond(desktop) {
+		padding: 15rem 10rem;
+	}
+
+	@include respond(tablet) {
+		padding: 10rem 5rem;
+	}
 
 	&__title {
-		color: $color-blue-dark;
+		color: $color-primary-dark;
 		font-size: 3rem;
 		font-weight: 600;
 	}
 
 	&__text {
-		padding-top: 5rem;
+		padding-top: 2rem;
+		padding-left: 10rem;
 		font-size: 2rem;
+
+		@include respond(desktop) {
+			padding-top: 2rem;
+			padding-left: 5rem;
+			font-size: 1.8rem;
+		}
+
+		@include respond(tablet) {
+			font-size: 1.5rem;
+		}
 	}
+
+	&__responsive {
+		height: 20rem;
+		width: 20rem;
+
+		@include respond(desktop) {
+			height: 18rem;
+			width: 18rem;
+		}
+
+		@include respond(tablet) {
+			height: 15rem;
+			width: 15rem;
+		}
+
+		@include respond(phone) {
+			height: 8rem;
+			width: 8rem;
+		}
+	}
+}
+
+.about__column {
+	float: left;
+	width: 50%;
+	padding: 1rem;
+
+	@include respond(tablet) {
+		width: 100%;
+	}
+}
+
+.about__row::after {
+	content: "";
+	display: table;
+	clear: both;
 }

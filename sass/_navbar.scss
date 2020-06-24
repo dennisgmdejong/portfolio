@@ -1,0 +1,34 @@
+/* Navigation Bar */
+.navbar-brand {
+	font-size: 3rem;
+	font-family: 'open-sams';
+	color: $color-primary-dark;
+}
+
+.nav-item {
+	margin-right: 5rem;
+	font-size: 2.4rem;
+
+	@include respond(lg-desktop) {
+		margin-right: 3rem;
+		font-size: 2rem;
+	}
+}
+
+.navbar ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+
+	@include respond(tablet) {
+		height: 0;
+		transition: none;
+	}
+}
+
+.navbar ul li:hover .underline {
+	width: 100%;
+	background-color: $color-red;
+}

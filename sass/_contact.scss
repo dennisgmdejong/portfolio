@@ -1,20 +1,37 @@
 .contact {
-	margin-top: -25vh;
 	background-color: $color-broken-white;
 
 	&__title {
-		padding-top: 25rem;
-		color: $color-blue-dark;
+		padding-top: 20rem;
+		color: $color-primary-dark;
 		text-align: center;
 		font-size: 3rem;
 		font-weight: 600;
-		// margin-bottom: 5rem;
+
+		@include respond(desktop) {
+			padding-top: 15rem;
+		}
 	}
 
 	&__text {
-		padding: 5rem;
+		margin-top: 5rem;
+		margin-bottom: 5rem;
 		font-size: 2rem;
 		text-align: center;
+
+		@include respond(desktop) {
+			font-size: 1.8rem;
+		}
+
+		@include respond(tablet) {
+			font-size: 1.5rem;
+		}
+
+		@include respond(phone) {
+			margin-left: 3rem;
+			margin-right: 3rem;
+			// font-size: 1.1rem;
+		}
 	}
 }
 
@@ -35,18 +52,18 @@
 	height: 3rem;
 	width: 3rem;
 	margin-right: 5rem;
-	fill: $color-blue-dark;
+	fill: $color-primary-dark;
 }
 
 .github {
 	height: 3rem;
 	width: 3rem;
 	margin-right: 5rem;
-	fill: $color-blue-dark;
+	fill: $color-primary-dark;
 }
 
 .linkedin {
 	height: 3rem;
 	width: 3rem;
-	fill: $color-blue-dark;
+	fill: $color-primary-dark;
 }
