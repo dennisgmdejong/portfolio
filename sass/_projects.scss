@@ -1,8 +1,9 @@
 .projects {
 	background-color: $color-broken-white;
+	color: $color-primary-dark;
 
 	&__title {
-		color: $color-primary-dark;
+		color: $color-highlight;
 		text-align: center;
 		font-size: 3rem;
 		font-weight: 600;
@@ -61,6 +62,8 @@
 }
 
 .card {
+	background-color: transparent;
+	border: none;
 	perspective: 150rem;
 	-moz-perspective: 150rem;
 	position: relative;

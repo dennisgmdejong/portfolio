@@ -1,9 +1,10 @@
 .contact {
 	background-color: $color-broken-white;
+	color: $color-primary-dark;
 
 	&__title {
 		padding-top: 20rem;
-		color: $color-primary-dark;
+		color: $color-highlight;
 		text-align: center;
 		font-size: 3rem;
 		font-weight: 600;

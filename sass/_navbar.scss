@@ -2,7 +2,10 @@
 .navbar-brand {
 	font-size: 3rem;
 	font-family: 'open-sams';
-	color: $color-primary-dark;
+}
+
+.navbar-toggler {
+	margin-right: 2rem;
 }
 
 .nav-item {
