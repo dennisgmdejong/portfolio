@@ -4,9 +4,7 @@ $color-broken-white: #f7fbfc;
 $color-highlight: #995d09;
 $color-red: #ff0000;
 
-$color-primary-light: #d6e6f2;
-$color-primary-medium: #b9d7ea;
-$color-primary-dark: #3f72af;
+$color-primary: #3f72af;
 
 $color-nexter-primary: #101d2c;
 $color-nexter-secondary: #c69963;
@@ -38,11 +36,5 @@ html {
 
 body {
 	box-sizing: border-box;
-	// padding: 3rem;
-
-	// @include respond(tab-port) {
-	// 	padding: 0;
-	// }
-
 	font-family: 'Open Sans', sans-serif;
 }

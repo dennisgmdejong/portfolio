@@ -13,14 +13,6 @@ body {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif; }
 
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(3rem); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
-
 .contact {
   background-color: #f7fbfc;
   color: #3f72af; }
@@ -65,13 +57,13 @@ body {
   margin-right: 5rem;
   fill: #3f72af; }
 
-.github {
+.linkedin {
   height: 3rem;
-  width: 3rem;
+  width: 5rem;
   margin-right: 5rem;
   fill: #3f72af; }
 
-.linkedin {
+.github {
   height: 3rem;
   width: 3rem;
   fill: #3f72af; }
@@ -131,6 +123,9 @@ body {
   color: #3f72af;
   text-align: center;
   padding: 20rem 20rem; }
+  @media only screen and (max-width: 992px) {
+    .about {
+      padding: 15rem 10rem; } }
   @media only screen and (max-width: 992px) {
     .about {
       padding: 15rem 10rem; } }
@@ -362,6 +357,13 @@ body {
         margin-bottom: 3rem; }
       .card__price-value {
         font-size: 4rem; } }
+
+.btn-lg {
+  text-decoration: none;
+  color: #3f72af;
+  font-weight: 600; }
+  .btn-lg:not(:last-child) {
+    margin-right: 2rem; }
 
 .footer {
   margin-top: -5vh;

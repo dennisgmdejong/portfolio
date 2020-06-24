@@ -1,6 +1,6 @@
 .projects {
 	background-color: $color-broken-white;
-	color: $color-primary-dark;
+	color: $color-primary;
 
 	&__title {
 		color: $color-highlight;
@@ -270,5 +270,14 @@
 		&__price-value {
 			font-size: 4rem;
 		}
+	}
+}
+
+.btn-lg {
+	text-decoration: none;
+	color: $color-primary;
+	font-weight: 600;
+	&:not(:last-child) {
+		margin-right: 2rem;
 	}
 }

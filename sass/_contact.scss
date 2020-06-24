@@ -1,6 +1,6 @@
 .contact {
 	background-color: $color-broken-white;
-	color: $color-primary-dark;
+	color: $color-primary;
 
 	&__title {
 		padding-top: 20rem;
@@ -53,18 +53,18 @@
 	height: 3rem;
 	width: 3rem;
 	margin-right: 5rem;
-	fill: $color-primary-dark;
+	fill: $color-primary;
+}
+
+.linkedin {
+	height: 3rem;
+	width: 5rem;
+	margin-right: 5rem;
+	fill: $color-primary;
 }
 
 .github {
 	height: 3rem;
 	width: 3rem;
-	margin-right: 5rem;
-	fill: $color-primary-dark;
-}
-
-.linkedin {
-	height: 3rem;
-	width: 3rem;
-	fill: $color-primary-dark;
+	fill: $color-primary;
 }

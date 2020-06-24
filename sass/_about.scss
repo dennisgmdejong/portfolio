@@ -1,8 +1,12 @@
 .about {
 	background-color: $color-broken-white;
-	color: $color-primary-dark;
+	color: $color-primary;
 	text-align: center;
 	padding: 20rem 20rem;
+
+	@include respond(desktop) {
+		padding: 15rem 10rem;
+	}
 
 	@include respond(desktop) {
 		padding: 15rem 10rem;
@@ -38,7 +42,7 @@
 	&__responsive {
 		height: 20rem;
 		width: 20rem;
-		fill: $color-primary-dark;
+		fill: $color-primary;
 
 		@include respond(desktop) {
 			height: 18rem;
