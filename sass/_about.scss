@@ -2,7 +2,7 @@
 	background-color: $color-broken-white;
 	color: $color-primary;
 	text-align: center;
-	padding: 20rem 20rem;
+	padding: 20rem 25rem;
 
 	@include respond(desktop) {
 		padding: 15rem 10rem;
